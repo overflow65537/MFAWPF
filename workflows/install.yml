@@ -77,7 +77,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MAAxxx-win-x86_64-with-gui
+          name: MaaXXX-win-x86_64-with-gui
           path: "gui"
 
   windows:
@@ -109,7 +109,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MAAxxx-win-${{ matrix.arch }}
+          name: MaaXXX-win-${{ matrix.arch }}
           path: "install"
 
   ubuntu:
@@ -141,7 +141,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MAAxxx-linux-${{ matrix.arch }}
+          name: MaaXXX-linux-${{ matrix.arch }}
           path: "install"
 
   macos:
@@ -173,7 +173,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MAAxxx-macos-${{ matrix.arch }}
+          name: MaaXXX-macos-${{ matrix.arch }}
           path: "install"
 
   android:
@@ -206,7 +206,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MAAxxx-android-${{ matrix.arch }}
+          name: MaaXXX-android-${{ matrix.arch }}
           path: "install"
 
 
